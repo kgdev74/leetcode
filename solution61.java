@@ -41,7 +41,6 @@ class Solution {
 
 public class solution61 {
     public static void main(String[] args) {
-        // Create list: 1->2->3->4->5
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
         head.next.next = new ListNode(3);
@@ -51,7 +50,6 @@ public class solution61 {
         Solution sol = new Solution();
         head = sol.rotateRight(head, 2);
 
-        // Print result
         while (head != null) {
             System.out.print(head.val + " ");
             head = head.next;
