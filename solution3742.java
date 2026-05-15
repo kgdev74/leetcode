@@ -34,7 +34,6 @@ class solution3742 {
                         }
                     }
 
-                    // Try moving Down
                     if (i + 1 < m) {
                         int val = grid[i + 1][j];
                         int nextCost = c + (val > 0 ? 1 : 0);
