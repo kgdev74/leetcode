@@ -7,7 +7,7 @@ class ListNode {
     }
 }
 
-class solution {
+class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null) return head;
         
@@ -48,7 +48,7 @@ public class solution61 {
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
 
-        solution sol = new solution();
+        Solution sol = new Solution();
         head = sol.rotateRight(head, 2);
 
         // Print result
