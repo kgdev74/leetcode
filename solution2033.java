@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution2033 {
     public int minOperations(int[][] grid, int x) {
         int m = grid.length, n = grid[0].length;
         int size = m * n;
