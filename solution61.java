@@ -7,7 +7,7 @@ class ListNode {
     }
 }
 
-class Solution {
+public class solution61 {
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null) return head;
         
@@ -37,9 +37,7 @@ class Solution {
         
         return newHead;
     }
-}
 
-public class solution61 {
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
@@ -47,7 +45,7 @@ public class solution61 {
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
 
-        Solution sol = new Solution();
+        solution61 sol = new solution61();
         head = sol.rotateRight(head, 2);
 
         while (head != null) {
